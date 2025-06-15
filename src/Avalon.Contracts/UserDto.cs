@@ -2,7 +2,9 @@ namespace Avalon.Contracts
 {
     public class UserDto
     {
-        public string Id { get; set; } = string.Empty;
+
+        public int Id { get; set; }
+
         public string? Name { get; set; }
     }
 }
