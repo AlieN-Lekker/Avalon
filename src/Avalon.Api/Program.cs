@@ -1,7 +1,7 @@
 using Avalon.Api.Services;
-using Avalon.Database;
-using Avalon.Engine;
-using Avalon.Logic;
+using Avalon.Data;
+using Avalon.Core;
+using Avalon.Business;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

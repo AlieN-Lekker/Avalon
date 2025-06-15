@@ -1,4 +1,4 @@
-namespace Avalon.DTOs
+namespace Avalon.Contracts
 {
     public class UserDto
     {

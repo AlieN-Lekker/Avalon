@@ -1,4 +1,4 @@
-namespace Avalon.Models
+namespace Avalon.Domain
 {
     public class User
     {

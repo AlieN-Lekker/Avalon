@@ -3,10 +3,10 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="../Avalon.Engine/Avalon.Engine.csproj" />
-    <ProjectReference Include="../Avalon.Logic/Avalon.Logic.csproj" />
-    <ProjectReference Include="../Avalon.Database/Avalon.Database.csproj" />
-    <ProjectReference Include="../Avalon.DTOs/Avalon.DTOs.csproj" />
-    <ProjectReference Include="../Avalon.Models/Avalon.Models.csproj" />
+    <ProjectReference Include="../Avalon.Core/Avalon.Core.csproj" />
+    <ProjectReference Include="../Avalon.Business/Avalon.Business.csproj" />
+    <ProjectReference Include="../Avalon.Data/Avalon.Data.csproj" />
+    <ProjectReference Include="../Avalon.Contracts/Avalon.Contracts.csproj" />
+    <ProjectReference Include="../Avalon.Domain/Avalon.Domain.csproj" />
   </ItemGroup>
 </Project>

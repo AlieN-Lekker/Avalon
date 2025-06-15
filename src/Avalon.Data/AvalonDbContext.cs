@@ -1,7 +1,7 @@
-using Avalon.Models;
+using Avalon.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace Avalon.Database
+namespace Avalon.Data
 {
     public class AvalonDbContext : DbContext
     {

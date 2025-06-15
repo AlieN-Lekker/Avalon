@@ -1,5 +1,5 @@
 using Avalon.Api.Services;
-using Avalon.Models;
+using Avalon.Domain;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Avalon.Api.Controllers

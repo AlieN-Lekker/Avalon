@@ -1,7 +1,7 @@
-using Avalon.Database;
-using Avalon.Models;
+using Avalon.Data;
+using Avalon.Domain;
 
-namespace Avalon.Logic
+namespace Avalon.Business
 {
     public class UserLogic
     {
