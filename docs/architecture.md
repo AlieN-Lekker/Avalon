@@ -39,11 +39,11 @@
 
 ```
 src/
-├── Avalon.Database/   # database context
-├── Avalon.DTOs/       # data transfer objects
-├── Avalon.Models/     # domain models
-├── Avalon.Logic/      # business logic
-├── Avalon.Engine/     # engine orchestrating logic
+├── Avalon.Data/       # database context
+├── Avalon.Contracts/  # data transfer objects
+├── Avalon.Domain/     # domain models
+├── Avalon.Business/   # business logic
+├── Avalon.Core/       # engine orchestrating logic
 └── Avalon.Api/        # ASP.NET Web API
 ```
 
