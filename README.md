@@ -4,6 +4,7 @@ This repository contains the main framework for Avalon, built with a C# backend 
 
 
 
+
 This repository contains the main framework for Avalon, built with a C# backend and an Angular frontend. Run `./start.sh` to launch the API and development frontend. MongoDB is required via the `MongoDb` connection string.
 
 ## Getting Started
@@ -27,6 +28,7 @@ cd frontend
 npm install
 npm start
 ```
+
 
 ## Structure
 

@@ -7,6 +7,7 @@ using System.Text;
 using Microsoft.Extensions.Configuration;
 
 
+
 namespace Avalon.Api.Services
 {
     public class AuthService

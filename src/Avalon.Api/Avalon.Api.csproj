@@ -9,7 +9,9 @@
     <ProjectReference Include="../Avalon.Contracts/Avalon.Contracts.csproj" />
     <ProjectReference Include="../Avalon.Domain/Avalon.Domain.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
+
   </ItemGroup>
 </Project>
