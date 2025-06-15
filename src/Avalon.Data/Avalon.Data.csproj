@@ -5,5 +5,7 @@
   <ItemGroup>
     <ProjectReference Include="../Avalon.Domain/Avalon.Domain.csproj" />
     <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
   </ItemGroup>
 </Project>
