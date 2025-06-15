@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Avalon.Engine/Avalon.Engine.csproj" />
+    <ProjectReference Include="../Avalon.Logic/Avalon.Logic.csproj" />
+    <ProjectReference Include="../Avalon.Database/Avalon.Database.csproj" />
+    <ProjectReference Include="../Avalon.DTOs/Avalon.DTOs.csproj" />
+    <ProjectReference Include="../Avalon.Models/Avalon.Models.csproj" />
+  </ItemGroup>
+</Project>
