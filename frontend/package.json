@@ -2,6 +2,10 @@
   "name": "avalon-frontend",
   "version": "0.1.0",
   "scripts": {
-    "start": "echo 'Angular CLI not installed'"
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+
   }
 }

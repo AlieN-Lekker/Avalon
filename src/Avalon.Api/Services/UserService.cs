@@ -1,9 +1,5 @@
-
 using Avalon.Core;
 using Avalon.Domain;
-
-
-
 namespace Avalon.Api.Services
 {
     public class UserService

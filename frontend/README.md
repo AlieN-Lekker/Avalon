@@ -1,4 +1,5 @@
 # Avalon Frontend
 
-This directory contains a basic Angular application placeholder.
-Install Angular CLI and run `ng serve` after installing dependencies.
+This directory contains a minimal AngularJS based login page.
+Run `npm install` and `npm start` to launch a small development server.
+

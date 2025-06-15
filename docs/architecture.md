@@ -35,6 +35,11 @@
 | Notification                | Email & SMS                 |
 | Reporting & Documentation   | Sciber Documentation        |
 
+## Database
+
+- **Provider**: MongoDB
+- **Schemas**: `User`, `Product`, `AuditLog`
+
 ## Layered Structure
 
 ```
