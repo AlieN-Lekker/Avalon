@@ -1,4 +1,5 @@
 using Avalon.Api.Services;
+
 using Avalon.Data;
 using Avalon.Core;
 using Avalon.Business;
@@ -57,7 +58,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

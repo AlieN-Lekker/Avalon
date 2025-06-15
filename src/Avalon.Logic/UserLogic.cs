@@ -1,10 +1,7 @@
-using Avalon.Data;
-using Avalon.Domain;
-using System.Collections.Generic;
-using System.Linq;
+using Avalon.Database;
+using Avalon.Models;
 
-
-namespace Avalon.Business
+namespace Avalon.Logic
 {
     public class UserLogic
     {

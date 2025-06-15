@@ -1,10 +1,7 @@
-using Avalon.Business;
-using Avalon.Domain;
+using Avalon.Logic;
+using Avalon.Models;
 
-using System.Collections.Generic;
-
-
-namespace Avalon.Core
+namespace Avalon.Engine
 {
     public class AvalonEngine
     {

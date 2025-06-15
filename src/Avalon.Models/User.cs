@@ -1,10 +1,8 @@
-namespace Avalon.Contracts
+namespace Avalon.Models
 {
-    public class UserDto
+    public class User
     {
-
         public int Id { get; set; }
-
         public string? Name { get; set; }
     }
 }
