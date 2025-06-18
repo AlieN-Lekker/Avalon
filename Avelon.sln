@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvelonApi", "src/AvelonApi/AvelonApi.csproj", "{242AEEEA-6FF5-4C01-8AF3-149133E4530D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvelonService", "src/AvelonService/AvelonService.csproj", "{1F53FFBD-3A4E-4BAD-AADE-BBF66A5EE071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvelonController", "src/AvelonController/AvelonController.csproj", "{C61AD600-F944-4E02-9D9D-AE7968342B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvelonEngine", "src/AvelonEngine/AvelonEngine.csproj", "{2F8AB150-9D70-47DD-8171-F0FF28C1EEC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvelonData", "src/AvelonData/AvelonData.csproj", "{2959E668-8694-44AF-AEAE-6EE60CE3F6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvelonDomain", "src/AvelonDomain/AvelonDomain.csproj", "{D2222C43-EB00-4777-835C-718F59C7589E}"
+EndProject
+Global
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+EndGlobalSection
+GlobalSection(ProjectConfigurationPlatforms) = postSolution
+{242AEEEA-6FF5-4C01-8AF3-149133E4530D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{242AEEEA-6FF5-4C01-8AF3-149133E4530D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{242AEEEA-6FF5-4C01-8AF3-149133E4530D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{242AEEEA-6FF5-4C01-8AF3-149133E4530D}.Release|Any CPU.Build.0 = Release|Any CPU
+{1F53FFBD-3A4E-4BAD-AADE-BBF66A5EE071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{1F53FFBD-3A4E-4BAD-AADE-BBF66A5EE071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{1F53FFBD-3A4E-4BAD-AADE-BBF66A5EE071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{1F53FFBD-3A4E-4BAD-AADE-BBF66A5EE071}.Release|Any CPU.Build.0 = Release|Any CPU
+{C61AD600-F944-4E02-9D9D-AE7968342B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{C61AD600-F944-4E02-9D9D-AE7968342B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{C61AD600-F944-4E02-9D9D-AE7968342B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{C61AD600-F944-4E02-9D9D-AE7968342B37}.Release|Any CPU.Build.0 = Release|Any CPU
+{2F8AB150-9D70-47DD-8171-F0FF28C1EEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{2F8AB150-9D70-47DD-8171-F0FF28C1EEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{2F8AB150-9D70-47DD-8171-F0FF28C1EEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{2F8AB150-9D70-47DD-8171-F0FF28C1EEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+{2959E668-8694-44AF-AEAE-6EE60CE3F6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{2959E668-8694-44AF-AEAE-6EE60CE3F6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{2959E668-8694-44AF-AEAE-6EE60CE3F6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{2959E668-8694-44AF-AEAE-6EE60CE3F6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+{D2222C43-EB00-4777-835C-718F59C7589E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{D2222C43-EB00-4777-835C-718F59C7589E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{D2222C43-EB00-4777-835C-718F59C7589E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{D2222C43-EB00-4777-835C-718F59C7589E}.Release|Any CPU.Build.0 = Release|Any CPU
+EndGlobalSection
+EndGlobal

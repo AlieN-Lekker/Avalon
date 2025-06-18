@@ -1,11 +1,6 @@
-# Avalon Framework
+# Avelon Framework
 
-This repository contains the main framework for Avalon, built with a C# backend and an Angular frontend. Run `./start.sh` to launch the API and development frontend. MongoDB is required via the `MongoDb` connection string.
-
-
-
-
-This repository contains the main framework for Avalon, built with a C# backend and an Angular frontend. Run `./start.sh` to launch the API and development frontend. MongoDB is required via the `MongoDb` connection string.
+This repository contains the main framework for **Avelon**, built with a C# backend and an Angular frontend. Run `./start.sh` to launch the API and development frontend. MongoDB is required via the `MongoDb` connection string.
 
 ## Getting Started
 
@@ -18,28 +13,31 @@ dotnet restore
 The backend can then be launched with:
 
 ```bash
-dotnet run --project src/Avalon.Api/Avalon.Api.csproj
+dotnet run --project src/AvelonApi/AvelonApi.csproj
 ```
 
-For the frontend, install Node dependencies inside the `frontend/` directory prior to starting the development server:
+For the frontend, install Node dependencies inside the `AvelonFront.web/` directory prior to starting the development server:
 
 ```bash
-cd frontend
+cd AvelonFront.web
 npm install
 npm start
 ```
 
+All C# projects enable nullable reference types for stricter code quality.
+
 
 ## Structure
+Each folder contains its own .csproj project file, e.g. `src/AvelonApi/AvelonApi.csproj`.
 
 - `src/` - C# backend
-  - `Avalon.Data/` - database context
-  - `Avalon.Contracts/` - data transfer objects
-  - `Avalon.Domain/` - domain models
-  - `Avalon.Business/` - business logic
-  - `Avalon.Core/` - engine orchestrating logic
-  - `Avalon.Api/` - ASP.NET Web API with controllers and services
-- `frontend/` - Angular client
+  - `AvelonData/` - database context
+  - `AvelonController/` - data transfer objects
+  - `AvelonDomain/` - domain models
+  - `AvelonService/` - business logic
+  - `AvelonEngine/` - engine orchestrating logic
+  - `AvelonApi/` - ASP.NET Web API with controllers and services
+- `AvelonFront.web/` - Angular client
 - `docs/` - documentation
 
 See [docs/architecture.md](docs/architecture.md) for an overview of the framework.

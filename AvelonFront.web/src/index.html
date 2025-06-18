@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="avelonApp">
+<head>
+  <meta charset="utf-8">
+  <title>Avelon</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="LoginController">
+  <h1>Avelon Login</h1>
+  <form ng-submit="login()">
+    <input type="text" ng-model="userName" placeholder="User name" />
+    <input type="password" ng-model="password" placeholder="Password" />
+    <button type="submit">Login</button>
+  </form>
+  <p>{{ message }}</p>
+  <script>
+    const app = angular.module('avelonApp', []);
+    app.controller('LoginController', function($http, $scope) {
+      $scope.login = function() {
+        $http.post('/api/auth/login', { userName: $scope.userName, password: $scope.password })
+          .then(function(res) {
+            localStorage.setItem('token', res.data.token);
+            $scope.message = 'Logged in!';
+          }, function() {
+            $scope.message = 'Login failed';
+          });
+      };
+    });
+  </script>
+</body>
+</html>
