@@ -1,5 +1,5 @@
 #!/bin/bash
 # Starts backend and frontend
 
-dotnet run --project src/Avalon.Api/Avalon.Api.csproj &
-cd frontend && npm start
+dotnet run --project src/AvelonApi/AvelonApi.csproj &
+cd AvelonFront.web && npm start
