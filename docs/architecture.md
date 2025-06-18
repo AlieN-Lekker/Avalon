@@ -44,12 +44,12 @@
 
 ```
 src/
-├── Avalon.Data/       # database context
-├── Avalon.Contracts/  # data transfer objects
-├── Avalon.Domain/     # domain models
-├── Avalon.Business/   # business logic
-├── Avalon.Core/       # engine orchestrating logic
-└── Avalon.Api/        # ASP.NET Web API
+├── AvelonData/        # database context
+├── AvelonController/  # data transfer objects
+├── AvelonDomain/      # domain models
+├── AvelonService/     # business logic
+├── AvelonEngine/      # engine orchestrating logic
+└── AvelonApi/         # ASP.NET Web API
 ```
 
 The API layer depends on the engine, which uses business logic classes interacting with the database and models. DTOs are used to expose data through the API and between layers.
@@ -59,7 +59,7 @@ The API layer depends on the engine, which uses business logic classes interacti
 ```
 repo/
 ├── src/            # C# backend projects
-├── frontend/       # Angular client app
+├── AvelonFront.web/       # Angular client app
 ├── docs/           # Documentation
 └── README.md
 ```
