@@ -1,4 +1,4 @@
-# Avalon Framework Architecture
+# Avelon Framework Architecture
 
 ## Authentication & Authorization
 - **Method**: JSON Web Tokens (JWT)
@@ -64,4 +64,4 @@ repo/
 └── README.md
 ```
 
-This document serves as the high-level overview of the Avalon framework. Further documentation and examples will be added as development progresses.
+This document serves as the high-level overview of the **Avelon** framework. Further documentation and examples will be added as development progresses.

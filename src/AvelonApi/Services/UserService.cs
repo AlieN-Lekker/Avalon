@@ -1,16 +1,14 @@
-using Avalon.Core;
-using Avalon.Domain;
-
+using Avelon.Engine;
+using Avelon.Domain;
 using System.Collections.Generic;
 
-
-namespace Avalon.Api.Services
+namespace Avelon.Api.Services
 {
     public class UserService
     {
-        private readonly AvalonEngine _engine;
+        private readonly AvelonEngine _engine;
 
-        public UserService(AvalonEngine engine)
+        public UserService(AvelonEngine engine)
         {
             _engine = engine;
         }

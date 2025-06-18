@@ -1,3 +1,3 @@
 export class AppComponent {
-  title = 'Avalon';
+  title = 'Avelon';
 }

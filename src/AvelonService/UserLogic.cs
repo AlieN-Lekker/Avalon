@@ -1,17 +1,19 @@
-using Avalon.Data;
-using Avalon.Domain;
+
+using Avelon.Data;
+using Avelon.Domain;
+
 
 using System.Collections.Generic;
 using System.Linq;
 
-
-namespace Avalon.Business
+namespace Avelon.Service
 {
     public class UserLogic
     {
-        private readonly AvalonDbContext _db;
+        private readonly AvelonDbContext _db;
 
-        public UserLogic(AvalonDbContext db)
+        public UserLogic(AvelonDbContext db)
+
         {
             _db = db;
         }

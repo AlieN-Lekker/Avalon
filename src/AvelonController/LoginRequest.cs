@@ -1,4 +1,4 @@
-namespace Avalon.Contracts
+namespace Avelon.Contracts
 {
     public class LoginRequest
     {

@@ -1,8 +1,9 @@
-using Avalon.Api.Services;
 
-using Avalon.Data;
-using Avalon.Core;
-using Avalon.Business;
+using Avelon.Api.Services;
+
+using Avelon.Data;
+using Avelon.Engine;
+using Avelon.Service;
 using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -16,13 +17,13 @@ services.AddControllers();
 services.AddEndpointsApiExplorer();
 services.AddSwaggerGen();
 
-services.AddDbContext<AvalonDbContext>(options =>
+services.AddDbContext<AvelonDbContext>(options =>
 {
-    options.UseInMemoryDatabase("Avalon");
+    options.UseInMemoryDatabase("Avelon");
 });
 services.AddSingleton<MongoDbContext>();
 services.AddScoped<UserLogic>();
-services.AddScoped<AvalonEngine>();
+services.AddScoped<AvelonEngine>();
 services.AddScoped<UserService>();
 services.AddScoped<AuthService>();
 
@@ -45,9 +46,11 @@ var app = builder.Build();
 
 // seed a default user if collection is empty
 var mongo = app.Services.GetRequiredService<MongoDbContext>();
-if (mongo.Users.CountDocuments(Builders<Avalon.Domain.User>.Filter.Empty) == 0)
+
+if (mongo.Users.CountDocuments(Builders<Avelon.Domain.User>.Filter.Empty) == 0)
 {
-    mongo.Users.InsertOne(new Avalon.Domain.User { UserName = "admin", Password = "admin" });
+    mongo.Users.InsertOne(new Avelon.Domain.User { UserName = "admin", Password = "admin" });
+
 }
 
 if (app.Environment.IsDevelopment())

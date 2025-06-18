@@ -1,8 +1,9 @@
-using Avalon.Api.Services;
-using Avalon.Contracts;
+using Avelon.Api.Services;
+using Avelon.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Avalon.Api.Controllers
+namespace Avelon.Api.Controllers
+
 {
     [ApiController]
     [Route("api/[controller]")]
