@@ -1,9 +1,10 @@
+
 using Avelon.Data;
 using Avelon.Domain;
 
+
 using System.Collections.Generic;
 using System.Linq;
-
 
 namespace Avelon.Service
 {
@@ -12,6 +13,7 @@ namespace Avelon.Service
         private readonly AvelonDbContext _db;
 
         public UserLogic(AvelonDbContext db)
+
         {
             _db = db;
         }

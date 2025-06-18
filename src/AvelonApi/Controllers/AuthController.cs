@@ -3,6 +3,7 @@ using Avelon.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Avelon.Api.Controllers
+
 {
     [ApiController]
     [Route("api/[controller]")]

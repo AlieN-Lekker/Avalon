@@ -14,7 +14,9 @@
   </form>
   <p>{{ message }}</p>
   <script>
+
     const app = angular.module('avelonApp', []);
+
     app.controller('LoginController', function($http, $scope) {
       $scope.login = function() {
         $http.post('/api/auth/login', { userName: $scope.userName, password: $scope.password })

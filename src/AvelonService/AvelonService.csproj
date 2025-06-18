@@ -3,6 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Avelon.Service</RootNamespace>
     <Nullable>enable</Nullable>
+
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../AvelonData/AvelonData.csproj" />

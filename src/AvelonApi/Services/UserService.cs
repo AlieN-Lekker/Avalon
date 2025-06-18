@@ -1,8 +1,6 @@
 using Avelon.Engine;
 using Avelon.Domain;
-
 using System.Collections.Generic;
-
 
 namespace Avelon.Api.Services
 {

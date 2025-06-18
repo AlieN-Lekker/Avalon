@@ -1,9 +1,10 @@
+
 using Avelon.Domain;
 using MongoDB.Driver;
 using Microsoft.Extensions.Configuration;
 
 namespace Avelon.Data
-{
+
     public class MongoDbContext
     {
         private readonly IMongoDatabase _database;

@@ -1,8 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>Avelon.Domain</RootNamespace>
-    <Nullable>enable</Nullable>
-
   </PropertyGroup>
 </Project>

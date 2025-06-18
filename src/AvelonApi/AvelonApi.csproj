@@ -3,6 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <RootNamespace>Avelon.Api</RootNamespace>
     <Nullable>enable</Nullable>
+
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../AvelonEngine/AvelonEngine.csproj" />

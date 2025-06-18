@@ -1,6 +1,8 @@
 using System;
 
+
 namespace Avelon.Domain
+
 {
     public class AuditLog
     {

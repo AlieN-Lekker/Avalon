@@ -1,3 +1,4 @@
+
 using Avelon.Api.Services;
 
 using Avelon.Data;
@@ -45,9 +46,11 @@ var app = builder.Build();
 
 // seed a default user if collection is empty
 var mongo = app.Services.GetRequiredService<MongoDbContext>();
+
 if (mongo.Users.CountDocuments(Builders<Avelon.Domain.User>.Filter.Empty) == 0)
 {
     mongo.Users.InsertOne(new Avelon.Domain.User { UserName = "admin", Password = "admin" });
+
 }
 
 if (app.Environment.IsDevelopment())
