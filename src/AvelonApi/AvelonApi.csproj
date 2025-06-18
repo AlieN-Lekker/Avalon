@@ -3,11 +3,11 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="../Avalon.Core/Avalon.Core.csproj" />
-    <ProjectReference Include="../Avalon.Business/Avalon.Business.csproj" />
-    <ProjectReference Include="../Avalon.Data/Avalon.Data.csproj" />
-    <ProjectReference Include="../Avalon.Contracts/Avalon.Contracts.csproj" />
-    <ProjectReference Include="../Avalon.Domain/Avalon.Domain.csproj" />
+    <ProjectReference Include="../AvelonEngine/AvelonEngine.csproj" />
+    <ProjectReference Include="../AvelonService/AvelonService.csproj" />
+    <ProjectReference Include="../AvelonData/AvelonData.csproj" />
+    <ProjectReference Include="../AvelonController/AvelonController.csproj" />
+    <ProjectReference Include="../AvelonDomain/AvelonDomain.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
 
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />

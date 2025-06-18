@@ -3,7 +3,6 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="../Avalon.Database/Avalon.Database.csproj" />
-    <ProjectReference Include="../Avalon.Models/Avalon.Models.csproj" />
+    <ProjectReference Include="../AvelonModels/AvelonModels.csproj" />
   </ItemGroup>
 </Project>

@@ -3,7 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="../Avalon.Data/Avalon.Data.csproj" />
-    <ProjectReference Include="../Avalon.Domain/Avalon.Domain.csproj" />
+    <ProjectReference Include="../AvelonService/AvelonService.csproj" />
+    <ProjectReference Include="../AvelonDomain/AvelonDomain.csproj" />
   </ItemGroup>
 </Project>
